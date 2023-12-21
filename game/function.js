@@ -67,14 +67,10 @@ playSound(randomChosenDrum);
 }
 function playSound(name){
   //var audio = new Audio("game/sounds" + name + ".mp3");
-  var audio = new Audio('game/sounds/'+ name + '.mp3');
+  var audio = new Audio('../game/sounds/'+ name + '.mp3');
   console.log(audio);
   audio.play();
 }
-var wrong5=new audio('game/sounds/wrong.mp3');
-var wrong1=new audio('../game/sounds/wrong.mp3');
-var wrong2=new audio('./game/sounds/wrong.mp3');
-var wrong3=new audio('/game/sounds/wrong.mp3');
 
 function animatePress(currentDrum){
   $("#"+ currentDrum).addClass("pressed");
@@ -108,10 +104,6 @@ else{
   console.log("Wrong");
   count++;
   flag=1;
-  wrong5.play();
-  wrong1.play();
-  wrong2.play();
-  wrong3.play();
   playSound("wrong");
   $("body").addClass("game-over");
   setTimeout(function(){

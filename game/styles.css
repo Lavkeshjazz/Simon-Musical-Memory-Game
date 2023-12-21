@@ -32,31 +32,31 @@ footer {
 }
 
 .w {
-  background-image: url(/Media/images/crash.png);
+  background-image: url(Media/images/crash.png);
 }
 
 .a {
-  background-image: url(/Media/images/kick.png);
+  background-image: url(Media/images/kick.png);
 }
 
 .s {
-  background-image: url(/Media/images/snare.png);
+  background-image: url(Media/images/snare.png);
 }
 
 .d {
-  background-image: url(/Media/images/tom1.png);
+  background-image: url(Media/images/tom1.png);
 }
 
 .j {
-  background-image: url(/Media/images/tom2.png);
+  background-image: url(Media/images/tom2.png);
 }
 
 .k {
-  background-image: url(/Media/images/tom3.png);
+  background-image: url(Media/images/tom3.png);
 }
 
 .l {
-  background-image: url(/Media/images/tom4.png);
+  background-image: url(Media/images/tom4.png);
 }
 
 .set {
@@ -95,7 +95,7 @@ footer {
   background-color: white;
 }
 body {
-  background-image: url(/Media/images/1168972-1920x1080-desktop-1080p-drums-wallpaper-photo.jpg);
+  background-image: url(Media/images/1168972-1920x1080-desktop-1080p-drums-wallpaper-photo.jpg);
   position: relative;
   background-position:center; 
   background-repeat: no-repeat;

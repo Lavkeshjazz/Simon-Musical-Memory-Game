@@ -40,23 +40,23 @@ footer {
 }
 
 .s {
-  background-image: url(../Media/images/snare.png);
+  background-image: url(../game/img/snare.png);
 }
 
 .d {
-  background-image: url(./Media/images/tom1.png);
+  background-image: url(./game/img/tom1.png);
 }
 
 .j {
-  background-image: url('/Media/images/tom2.png');
+  background-image: url('/game/img/tom2.png');
 }
 
 .k {
-  background-image: url('Media/images/tom3.png');
+  background-image: url('/game/img/tom3.png');
 }
 
 .l {
-  background-image: url("Media/images/tom4.png");
+  background-image: url("/game/img/tom4.png");
 }
 
 .set {

@@ -56,7 +56,7 @@ footer {
 }
 
 .l {
-  background-image: url(/Media/images/tom4.png);
+  background-image: url("Media/images/tom4.png");
 }
 
 .set {

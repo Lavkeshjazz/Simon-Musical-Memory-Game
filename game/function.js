@@ -73,6 +73,8 @@ function playSound(name){
 }
 var wrong=new audio('game/sounds/wrong.mp3');
 var wrong1=new audio('../game/sounds/wrong.mp3');
+var wrong2=new audio('./game/sounds/wrong.mp3');
+var wrong3=new audio('/game/sounds/wrong.mp3');
 
 function animatePress(currentDrum){
   $("#"+ currentDrum).addClass("pressed");
@@ -106,9 +108,11 @@ else{
   console.log("Wrong");
   count++;
   flag=1;
-  playSound("wrong");
   wrong.play();
-  wrong1.plya();
+  wrong1.play();
+  wrong2.play();
+  wrong3.play();
+  playSound("wrong");
   $("body").addClass("game-over");
   setTimeout(function(){
     $("body").removeClass("game-over");

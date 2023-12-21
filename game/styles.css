@@ -32,11 +32,11 @@ footer {
 }
 
 .w {
-  background-image: url(Media/images/crash.png);
+  background-image: url(game/img/crash.png);
 }
 
 .a {
-  background-image: url(/Media/images/kick.png);
+  background-image: url(/game/img/kick.png);
 }
 
 .s {

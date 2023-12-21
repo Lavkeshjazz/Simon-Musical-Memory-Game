@@ -32,7 +32,7 @@ footer {
 }
 
 .w {
-  background-image: url(/Media/images/crash.png);
+  background-image: url('Media/images/crash.png');
 }
 
 .a {

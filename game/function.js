@@ -65,7 +65,7 @@ playSound(randomChosenDrum);
    // alert(randomNumber);
 }
 function playSound(name){
-  var audio = new Audio("/Media/sounds/" + name + ".mp3");
+  var audio = new Audio("game/sounds" + name + ".mp3");
   audio.play();
 }
 function animatePress(currentDrum){

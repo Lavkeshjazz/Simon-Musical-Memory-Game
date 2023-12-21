@@ -55,6 +55,7 @@ function nextSequence(){
   level++;
   $("#level-title").text("Level " + level);
   var randomNumber = Math.floor(Math.random() * 6);
+  console.log(randomNumber);
    var randomChosenDrum=buttonDrums[randomNumber];
 
 gamePattern.push(randomChosenDrum);

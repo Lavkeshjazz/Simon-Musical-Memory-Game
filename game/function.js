@@ -71,7 +71,7 @@ function playSound(name){
   console.log(audio);
   audio.play();
 }
-var wrong=new audio('game/sounds/wrong.mp3');
+var wrong5=new audio('game/sounds/wrong.mp3');
 var wrong1=new audio('../game/sounds/wrong.mp3');
 var wrong2=new audio('./game/sounds/wrong.mp3');
 var wrong3=new audio('/game/sounds/wrong.mp3');
@@ -108,7 +108,7 @@ else{
   console.log("Wrong");
   count++;
   flag=1;
-  wrong.play();
+  wrong5.play();
   wrong1.play();
   wrong2.play();
   wrong3.play();

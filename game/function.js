@@ -71,6 +71,9 @@ function playSound(name){
   console.log(audio);
   audio.play();
 }
+var wrong=new audio('game/sounds/wrong.mp3');
+var wrong1=new audio('../game/sounds/wrong.mp3');
+
 function animatePress(currentDrum){
   $("#"+ currentDrum).addClass("pressed");
   setTimeout(function(){
@@ -104,6 +107,8 @@ else{
   count++;
   flag=1;
   playSound("wrong");
+  wrong.play();
+  wrong1.plya();
   $("body").addClass("game-over");
   setTimeout(function(){
     $("body").removeClass("game-over");
